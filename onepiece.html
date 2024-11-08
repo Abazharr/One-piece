@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Fan Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link til ekstern CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="text-center my-4">
+        <h1>One Piece</h1>
+    </header>
+
+    <main class="container">
+
+        
+        <!-- Navigasjon -->
+        <nav>
+            <ul>
+                <li><a href="onepiece.html">Hjem</a></li> <!-- Links to the home page (index.html) -->
+                <li><a href="nyheter.html">Nyheter</a></li> <!-- Links to nyheter.html -->
+                <li><a href="kontakt.html">Kontakt</a></li> <!-- Links to kontakt.html -->
+                <li><a href="#about">Om oss</a></li> <!-- Links to about.html -->
+            </ul>
+        </nav>
+
+        <hr>
+
+        <div class="text-center mb-4">
+            <img src="img/oneimage.jpg" alt="Luffy" class="img-fluid" style="max-height: 300px;">
+        </div>
+
+        <!-- Karakterliste -->
+        <section id="characters" class="mb-5">
+            <h2 class="text-center mb-4">Karakterer fra One Piece</h2>
+            <div class="row" id="character-container"> <!-- Container for karakterkort -->
+                <!-- Karakterkort vil bli lagt inn her av JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 One Piece Fan Page</p>
+    </footer>
+                    <!-- Bare en footer fordi, hvorfor ikke? -->
+
+
+    <!-- Bootstrap JS og avhengigheter -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="onepiece.js"></script> <!-- Link til ekstern JS -->
+    
+</body>
+</html>
